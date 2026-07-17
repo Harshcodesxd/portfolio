@@ -1,0 +1,311 @@
+{
+  "hero": {
+    "name": "HARSHIT",
+    "rotatingTitles": [
+      "AI Engineer in Progress",
+      "Full-Stack Developer",
+      "Freelance Web Architect",
+      "Future SaaS Founder"
+    ],
+    "description": "Architecting intelligent systems and high-fidelity digital experiences. Specializing in Next.js, Python AI development, and cinematic user interfaces.",
+    "ctaText": "Explore Work",
+    "ctaLink": "#projects",
+    "socialLinks": [
+      { "platform": "GitHub", "url": "https://github.com", "username": "harshit" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com", "username": "harshit" },
+      { "platform": "Instagram", "url": "https://instagram.com", "username": "harshit" }
+    ]
+  },
+  "about": {
+    "story": "I am Harshit, an aspiring AI Engineer and Full-Stack Developer driven by a passion for solving real-world problems through clean code, advanced machine learning models, and breathtaking user interfaces. I bridge the gap between heavy backend calculations, model orchestration, and front-end motion graphics. Whether building high-converting landing pages or structuring deep learning models, my goal is absolute precision and unmatched aesthetic quality.",
+    "highlights": [
+      "Deeply interested in Neural Networks & LLMs",
+      "Full-stack React & Next.js ecosystem expert",
+      "C++ Data Structures & Algorithms enthusiast",
+      "Utilizing AI tools for branding, graphic design, and video editing",
+      "Passionate about building self-sustaining SaaS products"
+    ]
+  },
+  "roadmap": [
+    { "name": "HTML & CSS", "status": "Completed", "progress": 100, "category": "Foundation", "icon": "Code" },
+    { "name": "JavaScript", "status": "Completed", "progress": 100, "category": "Foundation", "icon": "Code" },
+    { "name": "TypeScript", "status": "Completed", "progress": 95, "category": "Foundation", "icon": "Terminal" },
+    { "name": "React", "status": "Completed", "progress": 95, "category": "Frontend", "icon": "Cpu" },
+    { "name": "Next.js 15", "status": "Completed", "progress": 90, "category": "Frontend", "icon": "Layers" },
+    { "name": "Node.js & REST APIs", "status": "Completed", "progress": 85, "category": "Backend", "icon": "Server" },
+    { "name": "Git & GitHub", "status": "Completed", "progress": 90, "category": "Tools", "icon": "GitBranch" },
+    { "name": "Python & AI Core", "status": "Learning", "progress": 70, "category": "AI", "icon": "BrainCircuit" },
+    { "name": "Machine Learning Models", "status": "Learning", "progress": 60, "category": "AI", "icon": "TrendingUp" },
+    { "name": "C++ DSA", "status": "Learning", "progress": 75, "category": "Foundation", "icon": "Binary" },
+    { "name": "Graphic & Video Design with AI", "status": "Learning", "progress": 80, "category": "Design", "icon": "Image" },
+    { "name": "Data Analytics with AI", "status": "Learning", "progress": 50, "category": "AI", "icon": "BarChart3" }
+  ],
+  "skills": [
+    { "name": "Frontend Development", "level": "Expert", "percentage": 95 },
+    { "name": "Backend Development", "level": "Advanced", "percentage": 88 },
+    { "name": "Artificial Intelligence & ML", "level": "Intermediate", "percentage": 68 },
+    { "name": "React / Next.js", "level": "Expert", "percentage": 96 },
+    { "name": "Node.js & Express", "level": "Advanced", "percentage": 85 },
+    { "name": "Python Development", "level": "Advanced", "percentage": 75 },
+    { "name": "C++ DSA", "level": "Advanced", "percentage": 80 },
+    { "name": "Tailwind CSS", "level": "Expert", "percentage": 98 },
+    { "name": "REST API Integration", "level": "Expert", "percentage": 92 },
+    { "name": "Git & Git workflows", "level": "Advanced", "percentage": 90 },
+    { "name": "UI Design & Motion Graphics", "level": "Advanced", "percentage": 85 },
+    { "name": "Performance Optimization", "level": "Advanced", "percentage": 86 },
+    { "name": "PostgreSQL Database", "level": "Advanced", "percentage": 85 },
+    { "name": "MongoDB & NoSQL", "level": "Advanced", "percentage": 82 },
+    { "name": "Prisma ORM", "level": "Expert", "percentage": 90 }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "name": "Full-Stack Next.js Applications",
+      "description": "Custom, secure, and blazing-fast web applications built with Next.js 15, React 19, and tailored backend APIs. Optimized for search engines and user retention.",
+      "icon": "Layers"
+    },
+    {
+      "id": "srv-2",
+      "name": "High-Converting Landing Pages",
+      "description": "Stunning landing pages featuring premium glassmorphism, fluid animations, and custom 3D web graphics to convert traffic into active clients.",
+      "icon": "Compass"
+    },
+    {
+      "id": "srv-3",
+      "name": "AI Integration & Backend APIs",
+      "description": "Connecting LLM models, vector stores, and machine learning pipelines into standard web products, creating next-generation autonomous software.",
+      "icon": "Brain"
+    },
+    {
+      "id": "srv-4",
+      "name": "UI/UX Design & Motion Branding",
+      "description": "Original interface design, dark premium system implementation, interactive styling, and buttery smooth GSAP transitions.",
+      "icon": "Palette"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "ai-saas-dashboard",
+      "name": "AI-Powered Analytics SaaS",
+      "category": "AI Web Apps",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+      "description": "A high-fidelity data console rendering real-time AI usage statistics and cost summaries.",
+      "longDescription": "This project delivers a complete enterprise-scale analytical tool that maps API requests, token counts, and performance curves. Using Next.js Server Actions, Prisma, and Tailwind CSS, it offers a real-time tracking panel with fully interactive SVG graphs, charts, and downloadable reports.",
+      "tech": ["Next.js 15", "React 19", "Tailwind CSS", "Python AI", "REST APIs"],
+      "link": "https://dashboard.harshit.dev",
+      "github": "https://github.com",
+      "featured": true,
+      "keyFeatures": [
+        "Real-time token usage charts",
+        "Prisma Database model relations",
+        "Enterprise API cost tracking",
+        "Role-based console logs"
+      ],
+      "challengesSolved": "Architected clean database indexes and edge functions to process millions of real-time usage statistics without page delay.",
+      "performanceHighlights": [
+        "Sub-100ms API query logs",
+        "99.8% server latency rate",
+        "Zero browser thread locks"
+      ]
+    },
+    {
+      "slug": "spotify-clone-premium",
+      "name": "Spotify Glassmorphic Clone",
+      "category": "React Applications",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
+      "description": "A high-fidelity clone of Spotify web player with interactive glassmorphism UI.",
+      "longDescription": "An audio player powered by the Spotify Web Playback SDK, built to showcase complex frontend state architecture. It utilizes Framer Motion for slide animations, Tailwind for responsive spacing, and a Node.js middleware server to handle OAuth 2.0 user credentials securely.",
+      "tech": ["React", "Tailwind CSS", "Node.js", "REST APIs", "Framer Motion"],
+      "link": "https://spotify.harshit.dev",
+      "github": "https://github.com",
+      "featured": true,
+      "keyFeatures": [
+        "Active SDK Playback control",
+        "Glassmorphic playlist slides",
+        "OAuth 2.0 user gateways",
+        "Dynamic lyric syncing visualizer"
+      ],
+      "challengesSolved": "Synchronized asynchronous song play actions and playlist transitions smoothly with minimum UI jitter.",
+      "performanceHighlights": [
+        "Fluid 60FPS transitions",
+        "97% load index speed",
+        "Highly optimized asset bundles"
+      ]
+    },
+    {
+      "slug": "tracker-gg-clone",
+      "name": "Tracker.gg Gamer Portal",
+      "category": "Dashboard",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+      "description": "A gaming stats dashboard tracking multiplayer statistics, achievements, and matches.",
+      "longDescription": "A gaming stats application that pulls real-time information from competitive shooter APIs. Featuring a custom routing layout, caching pipelines, and detailed player graphs, this tracker replicates the functionality of Tracker.gg with dark futuristic elements.",
+      "tech": ["Next.js", "TypeScript", "REST APIs", "Tailwind CSS"],
+      "link": "https://tracker.harshit.dev",
+      "github": "https://github.com",
+      "featured": false,
+      "keyFeatures": [
+        "Live match statistics fetches",
+        "Local API query caches",
+        "Custom player graphs",
+        "Interactive profile metrics"
+      ],
+      "challengesSolved": "Designed intelligent data caching algorithms to query player statistics without getting blocked by gaming API rate limits.",
+      "performanceHighlights": [
+        "Reduced API fetching times by 65%",
+        "Perfect 100% mobile fluid scaling",
+        "Responsive SVG leaderboard graphs"
+      ]
+    },
+    {
+      "slug": "future-saas-platform",
+      "name": "Futuristic SaaS Platform",
+      "category": "Future SaaS Products",
+      "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=800&auto=format&fit=crop",
+      "description": "A premium web platform built to automate corporate document writing using AI LLM agents.",
+      "longDescription": "Currently under active development, this product leverages LangChain and Python ML models to automate complex report writing. It features an interactive node-based editor, drag-and-drop workspace triggers, and collaborative sockets.",
+      "tech": ["Next.js 15", "Python", "AI & Machine Learning", "Tailwind CSS"],
+      "link": "https://saas.harshit.dev",
+      "github": "https://github.com",
+      "featured": true,
+      "keyFeatures": [
+        "LangChain agentic workflows",
+        "Dynamic node-based workspace",
+        "Collaborative live socket triggers",
+        "AI text formatting tools"
+      ],
+      "challengesSolved": "Designed scalable node models to handle drag, drop, connection, and real-time execution outputs simultaneously.",
+      "performanceHighlights": [
+        "Under 80ms prompt execution latency",
+        "Efficient DOM layout rendering",
+        "On-demand server dynamic chunks"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2023",
+      "title": "Started Learning Programming",
+      "description": "Initiated my journey with HTML, CSS, JavaScript, and fundamentals of structural C++. Fell in love with the capability to create things from a terminal.",
+      "type": "past"
+    },
+    {
+      "year": "2024",
+      "title": "Full-Stack & React Deep Dive",
+      "description": "Learned Next.js, Node.js, databases, REST APIs, and git workflows. Commenced freelancing, building sites for local clients.",
+      "type": "present"
+    },
+    {
+      "year": "2025",
+      "title": "AI & Advanced Systems",
+      "description": "Immersed myself in Python, AI, Neural Networks, C++ DSA, and graphic design with AI assistance. Currently refining the skills to building autonomous web applications.",
+      "type": "present"
+    },
+    {
+      "year": "2026",
+      "title": "Freelancing & SaaS Launches",
+      "description": "Expanding freelance work to global agencies, coding high-fidelity interactive portfolios, and incubating future SaaS startups.",
+      "type": "future"
+    }
+  ],
+  "stats": {
+    "projects": 12,
+    "hoursLearning": 1850,
+    "technologies": 18,
+    "futureClients": 25,
+    "githubContributions": 920
+  },
+  "testimonials": [
+    {
+      "quote": "Harshit has an exceptional eye for design and outstanding technical execution. He rebuilt our landing page, boosting our sales inquiries by 40% and making it look incredibly slick.",
+      "author": "Marcus Sterling",
+      "role": "CEO, Veloce Labs",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+    },
+    {
+      "quote": "Working with Harshit on our game dashboard was a breeze. His understanding of high-frequency data fetching, combined with his smooth Framer Motion animations, exceeded our expectations.",
+      "author": "Elena Rostova",
+      "role": "Lead Architect, GameHedge",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop"
+    }
+  ],
+  "blog": [
+    {
+      "slug": "future-of-ai-agents",
+      "title": "The Rise of Autonomous AI Agents in Web Development",
+      "snippet": "Exploring how AI agents are transforming user interfaces and how developers can build AI-first web applications.",
+      "content": "### Introduction\nAI is no longer just a chatbot in the corner of your page. The next generation of web applications will be run by autonomous AI agents that make decisions, call APIs, and render dynamic layouts on the fly.\n\n### How Web Agents Work\nUnlike traditional web applications where every interaction path is hard-coded, AI-agent-powered apps dynamically generate tasks based on a user's prompt. \n\n1. **Intent Analysis**: The user prompt is parsed by an LLM to understand what they want to achieve.\n2. **Tool Selection**: The LLM queries available APIs (e.g., fetch database, call email server, run calculations) to solve the problem.\n3. **Result Generation**: The final output is rendered using highly interactive components.\n\n### Challenges & The Future\nLatency and security are major obstacles. However, with frameworks like Next.js 15 and streaming models, we can minimize response times. In the future, the websites you interact with might customize their complete color scheme, layout, and functionality purely around your current mood and requirements.\n\n```javascript\n// Inside Harshit's AI middleware\nexport async function orchestrateAgent(prompt) {\n  const response = await ai.generateTask({\n    model: 'gemini-3.5-flash',\n    prompt: prompt,\n    tools: ['db_search', 'api_caller']\n  });\n  return response;\n}\n```",
+      "date": "July 12, 2026",
+      "readTime": "4 min read",
+      "category": "Artificial Intelligence",
+      "tags": ["AI", "Next.js", "Web Dev"],
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "slug": "nextjs-15-react-19-animation",
+      "title": "Unlocking Framer Motion & GSAP inside React 19 Server Components",
+      "snippet": "A guide on maintaining structural animations and smooth scrolling while using Next.js 15 App Router architecture.",
+      "content": "### Introduction\nReact 19 Server Components are incredibly fast, but how do we manage complex animations that rely on browser APIs like window, document, and scroll position?\n\n### The 'use client' Separation\nTo make full use of GSAP's ScrollTrigger, we must isolate animation hooks within client components. Here is how you can set up a client-side animation wrapper:\n\n```typescript\n'use client';\n\nimport { useEffect } from 'react';\nimport gsap from 'gsap';\nimport { ScrollTrigger } from 'gsap/ScrollTrigger';\n\ngsap.registerPlugin(ScrollTrigger);\n\nexport default function AnimatedContainer({ children }) {\n  useEffect(() => {\n    gsap.fromTo('.animate-item', \n      { opacity: 0, y: 50 },\n      { opacity: 1, y: 0, stagger: 0.2, scrollTrigger: '.animate-item' }\n    );\n  }, []);\n\n  return <div className=\"animate-item\">{children}</div>;\n}\n```\n\n### Combining Lenis Smooth Scroll\nLenis provides a lightweight smooth-scroll framework that perfectly integrates with GSAP. By passing Lenis scroll metrics directly into GSAP's ScrollTrigger, you can link animation progress to scroll positions fluidly without any performance penalty.\n\n### Conclusion\nUsing server components to render structural grids, while leaving animations to client-side hook components, ensures rapid initial loading, perfect SEO indexability, and a fluid cinematic experience.",
+      "date": "June 28, 2026",
+      "readTime": "5 min read",
+      "category": "Frontend Development",
+      "tags": ["Next.js", "React 19", "GSAP", "Framer Motion"],
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop"
+    }
+  ],
+  "settings": {
+    "seoTitle": "Harshit | AI Engineer & Full-Stack Developer",
+    "seoDescription": "Premium personal portfolio of Harshit, featuring custom animations, 3D WebGL meshes, dynamic projects, and a custom content management system.",
+    "seoKeywords": "Harshit, AI Engineer, Next.js Developer, React 19, Full-stack developer, GSAP animations, Freelancer, SaaS founder",
+    "analyticsId": "UA-XXXXXXXXX-Y"
+  },
+  "process": [
+    {
+      "step": "01",
+      "title": "Discovery",
+      "description": "Understanding client needs, mapping system requirements, evaluating tech constraints, and laying out functional specifications."
+    },
+    {
+      "step": "02",
+      "title": "Planning",
+      "description": "Creating information structures, wireframing premium motion experiences, designing database tables, and choosing models."
+    },
+    {
+      "step": "03",
+      "title": "Development",
+      "description": "Coding modular components with React and Next.js 15, adding Tailwind styling, and wiring AI frameworks."
+    },
+    {
+      "step": "04",
+      "title": "Testing",
+      "description": "Conducting responsiveness sweeps, cross-browser styling fixes, page speed analysis, and accessibility keyboard audits."
+    },
+    {
+      "step": "05",
+      "title": "Deployment",
+      "description": "Compiling final bundle optimizations, setting server caching rules, configuring domain routers, and pushing code live."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "2025",
+      "id": "AWS-CCP-982A1",
+      "link": "https://aws.amazon.com/verification"
+    },
+    {
+      "name": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta / Coursera",
+      "date": "2024",
+      "id": "META-FED-771B",
+      "link": "https://coursera.org/verify/meta-front-end-developer"
+    },
+    {
+      "name": "Responsive Web Design Certification",
+      "issuer": "freeCodeCamp",
+      "date": "2023",
+      "id": "FCC-RWD-339A",
+      "link": "https://freecodecamp.org/certification/harshit/responsive-web-design"
+    }
+  ]
+}
